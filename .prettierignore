@@ -3,5 +3,4 @@ package.json
 *.html
 *.scss
 *.css
-*.yml
 _js/lib

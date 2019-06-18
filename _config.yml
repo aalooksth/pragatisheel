@@ -24,8 +24,7 @@ title:                 Shree Pragatisheel Secondary School
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  "Best Jekyll Theme by a Mile".
-  **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
+ Established in 2008 BS (1951 AD), Shree Pragatisheel Secondary School is a pioneer school in education.
 
 # A shorter description for the sidebar.
 tagline:               >
@@ -40,42 +39,49 @@ keywords:              []
 logo:                  /assets/icons/logo.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
-author:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+# author:
+#   name:                <Nick> <Engmann>
+#   email:               <cyengmann@gmail.com>
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
+  - title:             Home
+    url:               /
   - title:             News
     url:               /news/
-  - title:             Hydejack
-    url:               /hydejack/
-  - title:             Hyde
-    url:               /hyde/
-  - title:             Documentation
-    url:               /docs/
-  - title:             About
-    url:               /about/
-
-# Add links to the footer.
-# Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-# legal:
-#   - title:             Impress
-#     url:               /impress/
-#   - title:             Cookies Policy
-#     url:               /cookies-policy/
+  # - title:             About
+  #   url:               /about/
+  # - title:             Projects
+  #   url:               /projects/
+  # - title:             Resume
+  #   url:               /resume/
+  # # fvt
+  # - title:             Hydejack
+  #   url:               /hydejack/
+  # - title:             Hyde
+  #   url:               /hyde/
+  # - title:             Documentation
+  #   url:               /docs/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2019. All rights reserved.
 
+# Add links to the footer.
+# Typically you'll want to link to your impress, cookies or privacy policy, etc.
+# legal:
+#   - title:             Impress
+#     href:              /impress/
+#   - title:             Cookies Policy
+#     href:              /cookies-policy/
+
 # Format of the permalinks
-permalink:             /:categories/:year-:month-:day-:title/
+permalink:             /news/:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              5
-paginate_path:         /blog/page-:num/
+paginate_path:         /news/page-:num/
 
 
 # Customizaton
@@ -159,7 +165,7 @@ hydejack:
   no_google_fonts:     false
 
   # Set to `true` if you don't want to show an icon indicating external links
-  no_mark_external:    true
+  no_mark_external:    false
 
   # Set to `true` if third party plugins fail to work with dynamically loaded pages
   no_push_state:       false
@@ -171,12 +177,8 @@ hydejack:
   no_img:              false
 
   # Set to `true` if you do not want parts of the css inlined in <head/>
-  # This will increase site build speed dramatically!
+  # This *may* be benefitial when serving the site over HTTP/2.
   no_inline_css:       false
-
-  # Set to `true` if you don't intend on changing the accent color on a per-page basis.
-  # This will increase site build speed!
-  no_page_style:       false
 
   # Code blocks and tables "break" the layout by spanning the full available width.
   # Set this to true if you want them to be the same width as other content.
@@ -218,7 +220,7 @@ hydejack:
   # This is an _experimental_ feature.
   # Only use if you know what Service Workers are and how they can impact your site!
   offline:
-    enabled:           false
+    enabled:           true
     cache_version:     1
 
 
@@ -227,11 +229,11 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink:         /:name/
+    permalink:         /news/:name/
     output:            true
 
   featured_tags:
-    permalink:         /tag-:name/
+    permalink:         /news/tag-:name/
     output:            true
 
   projects:
@@ -277,7 +279,7 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # theme: jekyll-theme-hydejack
-# remote_theme: qwtel/hydejack@gem
+# remote_theme: qwtel/hydejack
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
