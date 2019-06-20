@@ -1,4 +1,6 @@
 ---
+layout: welcome
+title: Contact Us
 ---
 For any queries,
 
