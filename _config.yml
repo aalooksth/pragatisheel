@@ -51,6 +51,8 @@ menu:
     url:               /
   - title:             News
     url:               /news/
+  - title:             Contact
+    url:               /contact/
   # - title:             About
   #   url:               /about/
   # - title:             Projects
