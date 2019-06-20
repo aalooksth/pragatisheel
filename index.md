@@ -7,7 +7,7 @@ hide_description: false
 ---
 
 # About
-Established in 2006 BS, Pragatisheel School is a pioneer school for education.
+Established in 2006 BS, Pragatisheel School is a pioneer school for education situated in Sunkoshi Rural Municipality-3, Jhanjajholi, Ratmata, Sindhuli, Nepal.
 
 <!-- ## Feel Free to Explore
 
