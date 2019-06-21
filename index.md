@@ -7,7 +7,7 @@ hide_description: false
 ---
 
 # About
-Established in 2008 BS (1951 AD), Shreee Pragatisheel Secondary School is a pioneer school for education situated in Sunkoshi Rural Municipality-3, Jhanjajholi, Ratmata, Sindhuli, Nepal.
+Established in 2008 BS (1951 AD), Shreee Pragatisheel Secondary School is a pioneer community school for education situated in Sunkoshi Rural Municipality-3, Jhanjajholi, Ratmata, Sindhuli, Nepal. It is run by the community with contributions from the Government of Nepal.
 
 ## History
 As per the inscription of Setupati (resting house) in 1862 BS, the resting house was made by Setupaddhye Acharya to accomodate travellers and feed Brahmins. He had also donated 40 muri land to the resting house. The resting house also served a language school for educating Vedas. Later all the property was transferred to the school.
