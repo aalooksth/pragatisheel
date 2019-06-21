@@ -1,7 +1,6 @@
 ---
-layout: welcome
+layout: page
 title: Courses
-cover: false
 hide_description: false
 ---
 
