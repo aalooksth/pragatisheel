@@ -4,7 +4,7 @@ title: Contact Us
 ---
 For any queries,
 
-Shree Pragatisheel Secondary School
+**Shree Pragatisheel Secondary School**
 
 Sunkoshi Rural Municipality-3,
 
