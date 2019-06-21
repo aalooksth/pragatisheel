@@ -51,8 +51,6 @@ menu:
     url:               /
   - title:             Staffs
     url:               /staffs/
-    - title:             Test
-      url:               /test/
   - title:             Courses
     url:               /courses/
   - title:             News
