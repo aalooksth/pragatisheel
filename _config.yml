@@ -49,6 +49,12 @@ logo:                  /assets/icons/logo.jpg
 menu:
   - title:             Home
     url:               /
+  - title:             Staffs
+    url:               /staffs/
+    - title:             Test
+      url:               /test/
+  - title:             Courses
+    url:               /courses/
   - title:             News
     url:               /news/
   - title:             Contact
