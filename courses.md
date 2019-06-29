@@ -4,6 +4,6 @@ title: Courses
 hide_description: false
 ---
 
-- Secondary Education Examination, Ministry of Education, Nepal (Since 2024)
-- Plus Two, National Education Board, Nepal (Since 2064)
+- Secondary Education Examination, National Examinations Board, Nepal (Since 2024)
+- Plus Two, National Examinations Board, Nepal (Since 2064)
   - Education, Management and Humanities 
